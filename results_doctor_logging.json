@@ -1,0 +1,49 @@
+{
+  "config": {
+    "players": 12,
+    "wolves": 2,
+    "seed": 20261027,
+    "games_per_arm": 200000,
+    "arms": [
+      "A_neither",
+      "B_seer_only",
+      "C_doctor_only",
+      "D_both",
+      "E_perfect_doctor_only",
+      "F_seer_perfect_doctor",
+      "G_perfect_doctor_cheat",
+      "H_seer_perfect_doctor_cheat"
+    ]
+  },
+  "elapsed_seconds": 10.139657258987427,
+  "results": [
+    {
+      "arm": "C_doctor_only",
+      "seer": false,
+      "doctor": true,
+      "games": 200000,
+      "villager_wins": 68231,
+      "villager_win_rate": 0.341155,
+      "ci95_low": 0.33907717689567957,
+      "ci95_high": 0.3432328231043204,
+      "ci95_halfwidth": 0.0020778231043204324,
+      "mean_rounds": 4.70627,
+      "capped_games": 0,
+      "seer_found_wolf_games": 0,
+      "seer_found_wolf_rate": 0.0,
+      "seer_found_both_wolves_games": 0,
+      "seer_found_both_wolves_rate": 0.0,
+      "wolves_found_by_seer_per_game": 0.0,
+      "seer_revealed_games": 0,
+      "doctor_block_games": 59537,
+      "doctor_block_game_rate": 0.297685,
+      "doctor_blocks_total": 76088,
+      "doctor_blocks_per_game": 0.38044,
+      "nights_total": 941254,
+      "nights_doctor_alive": 642202,
+      "doctor_blocks_per_night": 0.08083684106521725,
+      "doctor_blocks_per_night_doctor_alive": 0.11847985524803722,
+      "perfect": null
+    }
+  ]
+}
